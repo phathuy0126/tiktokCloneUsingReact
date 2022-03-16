@@ -52,7 +52,6 @@ const ContainerPost = ({ video, like, comment, share }) => {
 
     const handleVideo = () => {
         setPlaying(!playing);
-        console.log(playing);
         if (playing) {
             if (videoRef.current.paused) {
                 videoRef.current.play();
@@ -65,7 +64,7 @@ const ContainerPost = ({ video, like, comment, share }) => {
             } else {
                 videoRef.current.pause();
             }
-        }        
+        }
     }
 
     const handleHeart = () => {

@@ -52,11 +52,20 @@ const ContainerPost = ({ video, like, comment, share }) => {
 
     const handleVideo = () => {
         setPlaying(!playing);
+        console.log(playing);
         if (playing) {
-            videoRef.current.pause();
+            if (videoRef.current.paused) {
+                videoRef.current.play();
+            } else {
+                videoRef.current.pause();
+            }
         } else {
-            videoRef.current.play();
-        }
+            if (videoRef.current.paused) {
+                videoRef.current.play();
+            } else {
+                videoRef.current.pause();
+            }
+        }        
     }
 
     const handleHeart = () => {

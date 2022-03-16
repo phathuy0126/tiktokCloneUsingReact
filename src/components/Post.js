@@ -52,7 +52,9 @@ const ContainerPost = ({ video, like, comment, share }) => {
 
     const handleVideo = () => {
         setPlaying(!playing);
-        if (playing) {
+        if (playing && videoRef.current.paused === true) {
+            videoRef.current.pause();
+        } if (playing && videoRef.current.paused === false) {
             videoRef.current.pause();
         } else {
             videoRef.current.play();

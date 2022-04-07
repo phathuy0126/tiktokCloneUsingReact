@@ -14,7 +14,18 @@ const arrayposts = [
         comment: 36,
         share: 21,
         music: 'Nhạc đang phát',
-        video: 'http://phathuy.tk/TiktokClone/video/girl2.mp4'    
+        video: 'https://phathuy0126.github.io/Tiktok/video/hotgirl.mp4'    
+    },
+    {
+        avatar: 'https://phathuy0126.github.io/Tiktok/video/girl7.mp4',
+        name: 'NickName',
+        idName: 'huydangcode',
+        discription: 'Đây là mô tả',
+        like: 389,
+        comment: 36,
+        share: 21,
+        music: 'Nhạc đang phát',
+        video: 'https://phathuy0126.github.io/Tiktok/video/girl2.mp4'    
     },
     {
         avatar: 'https://s120-ava-talk.zadn.vn/d/9/9/0/31/120/687f42aa2e8b086705243a1dbc20eccf.jpg',
@@ -25,7 +36,7 @@ const arrayposts = [
         comment: 36,
         share: 21,
         music: 'Nhạc đang phát',
-        video: 'http://phathuy.tk/TiktokClone/video/girl6.mp4'    
+        video: 'https://phathuy0126.github.io/Tiktok/video/girl3.mp4'    
     },
     {
         avatar: 'https://s120-ava-talk.zadn.vn/d/9/9/0/31/120/687f42aa2e8b086705243a1dbc20eccf.jpg',
@@ -36,7 +47,18 @@ const arrayposts = [
         comment: 36,
         share: 21,
         music: 'Nhạc đang phát',
-        video: 'http://phathuy.tk/TiktokClone/video/girl3.mp4'    
+        video: 'https://phathuy0126.github.io/Tiktok/video/girl4.mp4'    
+    },
+    {
+        avatar: 'https://s120-ava-talk.zadn.vn/d/9/9/0/31/120/687f42aa2e8b086705243a1dbc20eccf.jpg',
+        name: 'NickName',
+        idName: 'huydangcode',
+        discription: 'Đây là mô tả',
+        like: 389,
+        comment: 36,
+        share: 21,
+        music: 'Nhạc đang phát',
+        video: 'https://phathuy0126.github.io/Tiktok/video/girl6.mp4'    
     }
 ]
 
